@@ -160,6 +160,17 @@ def CreaPassword():
 	print""
 	print "comb28: "+cognome+nome+giorno_nascita+anno_nascita+mese_nascita #surname+name+day+year+month
 	print""
+	print "comb29: "+nome+giorno_nascita #name+day
+	print""
+	print "comb30: "+cognome+giorno_nascita #surname+day
+	print""
+	print "comb31: "+nome+cognome+giorno_nascita #name+surname+day
+	print""
+	print "comb32: "+nome+giorno_nascita+cognome #name+day+surname
+	print""
+	print "comb33: "+cognome+nome+giorno_nascita #surname+name+day
+	print""
+	print "comb34: "+cognome+giorno_nascita+nome #surname+day+name
 	
 	
 	
