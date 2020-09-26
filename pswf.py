@@ -133,8 +133,32 @@ def CreaPassword():
 	print""
 	print "comb16: "+cognome+mese_nascita+anno_nascita #surname+month-of-birth-year-of-birth 
 	print""
+	print "comb17: "+nome+cognome+anno_nascita+mese_nascita #name+surname+year of birth+month of birth
+	print""
+	print "comb18: "+nome+cognome+mese_nascita+anno_nascita #name+surname+month of birth+ year of birth
+	print""
+	print "comb19: "+cognome+nome+anno_nascita+mese_nascita #surname+name+yearofbith+monthofbirth
+	print""
+	print "comb20: "+cognome+nome+mese_nascita+anno_nascita #surname+name+monthofbirt+yearofbirth
+	print""
 	
-		
+	
+	
+	
+	
+	
+	
+	
+	print""
+	print""
+	print"---------------------------------------------------------------------------"
+	print"---------------------------------------------------------------------------"
+	print""
+	print "                             END PASSWORD"
+	print""
+	print"---------------------------------------------------------------------------"
+	print"---------------------------------------------------------------------------"
+	print""	
 
 
 print MenuFont() #ASCII LOGO
