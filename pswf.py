@@ -80,6 +80,10 @@ def CreaPassword():
 		if dog_number ==str(2):
 			dog_name = raw_input("Enter the 1st animal name: ")
 			dog_name2 = raw_input("Enter the 2nd animal name: ")
+		if dog_number ==str(3):
+			dog_name = raw_input("Enter the 1st animal name: ")
+			dog_name2 = raw_input("Enter the 2nd animal name: ")
+			dog_name3 = raw_input("Enter the 3td animal name: ")
 		dog_name_value =1
 		
 	elif has_dog == "no":
@@ -196,7 +200,6 @@ def CreaPassword():
 	print "comb43: "+cognome+anno_nascita+mese_nascita+nome #surname+year+month+name
 	print""
 	print "comb44: "+cognome+mese_nascita+anno_nascita+nome #surname+month+year+name
-	
 	print""
 	print "comb45: "+anno_nascita+mese_nascita+giorno_nascita #YY/MM/DD
 	print""
@@ -232,11 +235,31 @@ def CreaPassword():
 	#Animale
 	if dog_name_value ==1 and dog_number==str(1):		
 		print""
-		print "combAnimal: "+nome+cognome+dog_name
+		print "combAnimal: "+nome+cognome+dog_name #name+surname+animal
+		print "combAnimal2: "+cognome+nome+dog_name #surname+name+animal
+		print "combAnimal3: "+dog_name+nome+cognome #animal+name+surname
+		print "combAnimal4: "+dog_name+cognome+nome #animal+surname+name
+		print "combAnimal5: "+nome+cognome+dog_name+anno_nascita #name+surname+animal+year
+		print "combAnimal6: "+cognome+nome+dog_name+anno_nascita #surname+name+animal+year
+		print "combAnimal7: "+nome+dog_name #name+animal
+		print "combAnimal8: "+dog_name+nome #animal+name
+		print "combAnimal9: "+cognome+dog_name #surname+animal
+		print "combAnimal10: "+dog_name+cognome #animal+surname
+		print "combAnimal11: "+dog_name+anno_nascita #animal+year
+		print "combAnimal12: "+dog_name+giorno_nascita #animal+day
+		print "combAnimal13: "+dog_name+mese_nascita #animal+month
+		print "combAnimal14: "+anno_nascita+dog_name #year+animal
+		print "combAnimal15: "+mese_nascita+dog_name #month+animal
+		print "combAnimal16: "+giorno_nascita+dog_name #day+animal
 	if dog_name_value ==1 and dog_number==str(2):
 		print""
-		print "combAnimal1: "+nome+cognome+dog_name
-		print "combAnimal2: "+nome+cognome+dog_name2
+		print "combAnimal1: "+nome+cognome+dog_name #name+surname+animal1
+		print "combAnimal2: "+nome+cognome+dog_name2 #name+surname+animal2
+	if dog_name_value ==1 and dog_number==str(3):
+		print""
+		print "combAnimal1: "+nome+cognome+dog_name #name+surname+animal1
+		print "combAnimal2: "+nome+cognome+dog_name2 #name+surname+animal2
+		print "combAniaml3: "+nome+cognome+dog_name3 #name+surname+animal3
 	elif dog_name_value ==2:
 		print ""
 	else:
