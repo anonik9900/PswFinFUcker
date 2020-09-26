@@ -212,8 +212,27 @@ def CreaPassword():
 	print""
 	print "comb53: "+cognome+giorno_nascita+mese_nascita+anno_nascita #surname+DD/MM/YY
 	print""
+	print "comb54: "+nome+anno_nascita+mese_nascita+giorno_nascita+cognome #name+YY/MM/DD+surname
+	print""
+	print "comb55: "+nome+mese_nascita+giorno_nascita+anno_nascita+cognome #name+MM/DD/YY+surname
+	print""
+	print "comb56: "+nome+giorno_nascita+mese_nascita+anno_nascita+cognome #name+DD/MM/YY+surname
+	print""
+	print "comb57: "+cognome+anno_nascita+mese_nascita+giorno_nascita+nome #surname+YY/MM/DD+name
+	print""
+	print "comb58: "+cognome+mese_nascita+giorno_nascita+anno_nascita+nome #surname+MM/DD/YY+name
+	print""
+	print "comb59: "+cognome+giorno_nascita+mese_nascita+anno_nascita+nome #surname+DD/MM/YY+name
 	
 	
+	#Animale
+	if dog_name_value ==1:		
+		print""
+		print "combAnimal: "+nome+cognome+dog_name
+	elif dog_name_value ==2:
+		print ""
+	else:
+		print""
 	
 	
 	print""
@@ -234,15 +253,3 @@ print CreaPassword()
 
 	
 	
-
-
-
-
-
-
-
-
-
-
-
-
