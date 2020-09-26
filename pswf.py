@@ -87,7 +87,7 @@ def CreaPassword():
 	
 
 	
-	
+
 	#print "La password e':  "+nome+ " " +cognome
 	
 	#Combinazione Password
@@ -106,6 +106,10 @@ def CreaPassword():
 	print "comb5: "+cognome+ " "+nome #surname + name with space
 	print""
 	print "comb6: "+cognome+nome+anno_nascita #surname + name + year of birth
+	print""
+	print "comb7: "+nome+anno_nascita #name+year of birth
+	print""
+	print "comb8: "+cognome+anno_nascita#surname+year of birth
 	print""
 	
 	
@@ -131,6 +135,4 @@ bday = raw_input ("Enter your Birthday: ")
 
 
 
-def FinalData():
-	print "Ti chiami "+name+ " Hai " +age+ " anni e sei nato il " +bday 
-print FinalData()
+
