@@ -235,7 +235,7 @@ def CreaPassword():
 	#Animale
 	if dog_name_value ==1 and dog_number==str(1):		
 		print""
-		print "combAnimal: "+nome+cognome+dog_name #name+surname+animal
+		print "combAnimal1: "+nome+cognome+dog_name #name+surname+animal
 		print "combAnimal2: "+cognome+nome+dog_name #surname+name+animal
 		print "combAnimal3: "+dog_name+nome+cognome #animal+name+surname
 		print "combAnimal4: "+dog_name+cognome+nome #animal+surname+name
@@ -288,12 +288,113 @@ def CreaPassword():
 	if dog_name_value ==1 and dog_number==str(2):
 		print""
 		print "combAnimal1: "+nome+cognome+dog_name #name+surname+animal1
-		print "combAnimal2: "+nome+cognome+dog_name2 #name+surname+animal2
+		print "combAnimal2: "+cognome+nome+dog_name #surname+name+animal
+		print "combAnimal3: "+dog_name+nome+cognome #animal+name+surname
+		print "combAnimal4: "+dog_name+cognome+nome #animal+surname+name
+		print "combAnimal5: "+nome+cognome+dog_name+anno_nascita #name+surname+animal+year
+		print "combAnimal6: "+cognome+nome+dog_name+anno_nascita #surname+name+animal+year
+		
+		print "combAnimal7: "+nome+dog_name #name+animal
+		print "combAnimal8: "+dog_name+nome #animal+name
+		print "combAnimal9: "+cognome+dog_name #surname+animal
+		print "combAnimal10: "+dog_name+cognome #animal+surname
+		
+		print "combAnimal11: "+dog_name+anno_nascita #animal+year
+		print "combAnimal12: "+dog_name+giorno_nascita #animal+day
+		print "combAnimal13: "+dog_name+mese_nascita #animal+month
+		
+		print "combAnimal14: "+anno_nascita+dog_name #year+animal
+		print "combAnimal15: "+mese_nascita+dog_name #month+animal
+		print "combAnimal16: "+giorno_nascita+dog_name #day+animal
+		
+		print "combAnimal17: "+nome+anno_nascita+dog_name #name+year+animal
+		print "combAnimal18: "+nome+mese_nascita+dog_name #name+month+animal
+		print "combAnimal19: "+nome+giorno_nascita+dog_name #name+day+animal
+		
+		print "combAnimal20: "+nome+dog_name+anno_nascita #name+animal+year
+		print "combAnimal21: "+nome+dog_name+mese_nascita #name+animal+month
+		print "combAnimal22: "+nome+dog_name+giorno_nascita #name+animal+day
+		
+		print "combAnimal23: "+dog_name+nome+anno_nascita #animal+name+year
+		print "combAnimal24: "+dog_name+nome+mese_nascita #animal+name+month
+		print "combAnimal25: "+dog_name+nome+giorno_nascita #animal+name+day
+		print "combAnimal26: "+dog_name+anno_nascita+nome #animal+year+name
+		print "combAnimal27:_"+dog_name+mese_nascita+nome #animal+month+name
+		print "combAnimal28: "+dog_name+giorno_nascita+nome #animal+day+name
+		
+		print "combAnimal29: "+cognome+anno_nascita+dog_name #surname+year+animal
+		print "combAnimal30: "+cognome+mese_nascita+dog_name #surname+month+animal
+		print "combAnimal31: "+cognome+giorno_nascita+dog_name #surname+day+animal
+		
+		print "combAnimal32: "+cognome+dog_name+anno_nascita #surname+animal+year
+		print "combAnimal33: "+cognome+dog_name+mese_nascita #surname+animal+month
+		print "combAnimal34: "+cognome+dog_name+giorno_nascita #surname+animal+day
+		
+		print "combAnimal35: "+dog_name+cognome+anno_nascita #animal+surname+year
+		print "combAnimal36: "+dog_name+cognome+mese_nascita #animal+surname+month
+		print "combAnimal37: "+dog_name+cognome+giorno_nascita #animal+surname+day
+		print "combAnimal38: "+dog_name+anno_nascita+cognome #animal+year+surname
+		print "combAnimal39: "+dog_name+mese_nascita+cognome #animal+month+surname
+		print "combAnimal40: "+dog_name+giorno_nascita+cognome #animal+day+surname
+		
+		print "combAnimal Second: "+nome+cognome+dog_name2 #name+surname+animal2
+		
+		
 	if dog_name_value ==1 and dog_number==str(3):
 		print""
 		print "combAnimal1: "+nome+cognome+dog_name #name+surname+animal1
-		print "combAnimal2: "+nome+cognome+dog_name2 #name+surname+animal2
-		print "combAniaml3: "+nome+cognome+dog_name3 #name+surname+animal3
+		print "combAnimal2: "+cognome+nome+dog_name #surname+name+animal
+		print "combAnimal3: "+dog_name+nome+cognome #animal+name+surname
+		print "combAnimal4: "+dog_name+cognome+nome #animal+surname+name
+		print "combAnimal5: "+nome+cognome+dog_name+anno_nascita #name+surname+animal+year
+		print "combAnimal6: "+cognome+nome+dog_name+anno_nascita #surname+name+animal+year
+		
+		print "combAnimal7: "+nome+dog_name #name+animal
+		print "combAnimal8: "+dog_name+nome #animal+name
+		print "combAnimal9: "+cognome+dog_name #surname+animal
+		print "combAnimal10: "+dog_name+cognome #animal+surname
+		
+		print "combAnimal11: "+dog_name+anno_nascita #animal+year
+		print "combAnimal12: "+dog_name+giorno_nascita #animal+day
+		print "combAnimal13: "+dog_name+mese_nascita #animal+month
+		
+		print "combAnimal14: "+anno_nascita+dog_name #year+animal
+		print "combAnimal15: "+mese_nascita+dog_name #month+animal
+		print "combAnimal16: "+giorno_nascita+dog_name #day+animal
+		
+		print "combAnimal17: "+nome+anno_nascita+dog_name #name+year+animal
+		print "combAnimal18: "+nome+mese_nascita+dog_name #name+month+animal
+		print "combAnimal19: "+nome+giorno_nascita+dog_name #name+day+animal
+		
+		print "combAnimal20: "+nome+dog_name+anno_nascita #name+animal+year
+		print "combAnimal21: "+nome+dog_name+mese_nascita #name+animal+month
+		print "combAnimal22: "+nome+dog_name+giorno_nascita #name+animal+day
+		
+		print "combAnimal23: "+dog_name+nome+anno_nascita #animal+name+year
+		print "combAnimal24: "+dog_name+nome+mese_nascita #animal+name+month
+		print "combAnimal25: "+dog_name+nome+giorno_nascita #animal+name+day
+		print "combAnimal26: "+dog_name+anno_nascita+nome #animal+year+name
+		print "combAnimal27:_"+dog_name+mese_nascita+nome #animal+month+name
+		print "combAnimal28: "+dog_name+giorno_nascita+nome #animal+day+name
+		
+		print "combAnimal29: "+cognome+anno_nascita+dog_name #surname+year+animal
+		print "combAnimal30: "+cognome+mese_nascita+dog_name #surname+month+animal
+		print "combAnimal31: "+cognome+giorno_nascita+dog_name #surname+day+animal
+		
+		print "combAnimal32: "+cognome+dog_name+anno_nascita #surname+animal+year
+		print "combAnimal33: "+cognome+dog_name+mese_nascita #surname+animal+month
+		print "combAnimal34: "+cognome+dog_name+giorno_nascita #surname+animal+day
+		
+		print "combAnimal35: "+dog_name+cognome+anno_nascita #animal+surname+year
+		print "combAnimal36: "+dog_name+cognome+mese_nascita #animal+surname+month
+		print "combAnimal37: "+dog_name+cognome+giorno_nascita #animal+surname+day
+		print "combAnimal38: "+dog_name+anno_nascita+cognome #animal+year+surname
+		print "combAnimal39: "+dog_name+mese_nascita+cognome #animal+month+surname
+		print "combAnimal40: "+dog_name+giorno_nascita+cognome #animal+day+surname
+		
+		
+		print "combAnimalSecond: "+nome+cognome+dog_name2 #name+surname+animal2
+		print "combAniaml Thidrd: "+nome+cognome+dog_name3 #name+surname+animal3
 	elif dog_name_value ==2:
 		print ""
 	else:
