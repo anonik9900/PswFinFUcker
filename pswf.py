@@ -91,9 +91,15 @@ def CreaPassword():
 	#print "La password e':  "+nome+ " " +cognome
 	
 	#Combinazione Password
-	
 	print""
-	print "Genero Password ...."
+	print""
+	print"---------------------------------------------------------------------------"
+	print"---------------------------------------------------------------------------"
+	print""
+	print "                             Genero Password"
+	print""
+	print"---------------------------------------------------------------------------"
+	print"---------------------------------------------------------------------------"
 	print""
 	print "comb1: "+nome+cognome #name + surname
 	print""
@@ -111,6 +117,15 @@ def CreaPassword():
 	print""
 	print "comb8: "+cognome+anno_nascita#surname+year of birth
 	print""
+	print "comb9: "+nome+cognome+mese_nascita #name+surname+month of birth
+	print""
+	print "comb10: "+cognome+nome+mese_nascita #surname+name+month of birth
+	print""
+	print "comb11: "+nome+mese_nascita+cognome #name+month of birth+surname
+	print""
+	print "comb12: "+cognome+mese_nascita+nome #surname+month of birth+name
+	print""
+	
 	
 	
 		
@@ -129,9 +144,7 @@ print CreaPassword()
 
 
 
-name = raw_input("Please enter your name:  ")
-age = raw_input("Enter your age: ")
-bday = raw_input ("Enter your Birthday: ")
+
 
 
 
