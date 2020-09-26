@@ -73,9 +73,13 @@ def CreaPassword():
 	
 	#If se ha il cane
 	has_dog = raw_input("Yor victim has an animal?: ")
-	
 	if has_dog == "yes":
-		dog_name = raw_input("Enter the animal name: ")
+		dog_number = raw_input("Enter the number of animals: ")
+		if dog_number == str(1):
+			dog_name = raw_input("Enter the animal name: ")
+		if dog_number ==str(2):
+			dog_name = raw_input("Enter the 1st animal name: ")
+			dog_name2 = raw_input("Enter the 2nd animal name: ")
 		dog_name_value =1
 		
 	elif has_dog == "no":
@@ -226,9 +230,13 @@ def CreaPassword():
 	
 	
 	#Animale
-	if dog_name_value ==1:		
+	if dog_name_value ==1 and dog_number==str(1):		
 		print""
 		print "combAnimal: "+nome+cognome+dog_name
+	if dog_name_value ==1 and dog_number==str(2):
+		print""
+		print "combAnimal1: "+nome+cognome+dog_name
+		print "combAnimal2: "+nome+cognome+dog_name2
 	elif dog_name_value ==2:
 		print ""
 	else:
