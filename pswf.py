@@ -172,8 +172,46 @@ def CreaPassword():
 	print""
 	print "comb34: "+cognome+giorno_nascita+nome #surname+day+name
 	
+	print""
+	print "comb35: "+nome+anno_nascita+cognome #name+year+surname
+	print""
+	print "comb36: "+cognome+anno_nascita+nome #surname+year+name
+	print""
+	print "comb37: "+nome+anno_nascita+cognome+mese_nascita #name+year+surname+month
+	print""
+	print "comb38: "+cognome+anno_nascita+nome+mese_nascita #surname+year+name+month
+	print""
+	print "comb39: "+nome+mese_nascita+cognome+anno_nascita #name+month+surname+year
+	print""
+	print "comb40: "+cognome+mese_nascita+nome+anno_nascita #surname+month+name+year
+	print""
+	print "comb41: "+nome+anno_nascita+mese_nascita+cognome #name+year+month+surname
+	print""
+	print "comb42: "+nome+mese_nascita+anno_nascita+cognome #name+month+year+surname
+	print""
+	print "comb43: "+cognome+anno_nascita+mese_nascita+nome #surname+year+month+name
+	print""
+	print "comb44: "+cognome+mese_nascita+anno_nascita+nome #surname+month+year+name
 	
-	
+	print""
+	print "comb45: "+anno_nascita+mese_nascita+giorno_nascita #YY/MM/DD
+	print""
+	print "comb46: "+mese_nascita+giorno_nascita+anno_nascita #MM/DD/YY
+	print""
+	print "comb47: "+giorno_nascita+mese_nascita+anno_nascita #DD/MM/YY
+	print""
+	print "comb48: "+nome+anno_nascita+mese_nascita+giorno_nascita #name+YY/MM/DD
+	print""
+	print "comb49: "+nome+mese_nascita+giorno_nascita+anno_nascita #name+MM/DD/YY
+	print""
+	print "comb50: "+nome+giorno_nascita+mese_nascita+anno_nascita #name+DD/MM/YY
+	print""
+	print "comb51: "+cognome+anno_nascita+mese_nascita+giorno_nascita #surname+YY/MM/DD
+	print""
+	print "comb52: "+cognome+mese_nascita+giorno_nascita+anno_nascita #surname+MM/DD/YY
+	print""
+	print "comb53: "+cognome+giorno_nascita+mese_nascita+anno_nascita #surname+DD/MM/YY
+	print""
 	
 	
 	
