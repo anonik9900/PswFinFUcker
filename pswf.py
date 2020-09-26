@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-import pyautogui
 import string
 import subprocess #Process commands
 import socket #Process socket data
@@ -90,6 +89,24 @@ def CreaPassword():
 	
 	
 	#print "La password e':  "+nome+ " " +cognome
+	
+	#Combinazione Password
+	
+	print""
+	print "Genero Password ...."
+	print""
+	print "comb1: "+nome+cognome #name + surname
+	print""
+	print "comb2: "+nome+ " "+cognome #name + surnamen + with space
+	print""
+	print "comb3: "+nome+cognome+anno_nascita #name+surname+year of birth
+	print""
+	print "comb4: "+cognome+nome #surname+name
+	print""
+	print "comb5: "+cognome+ " "+nome #surname + name with space
+	print""
+	print "comb6: "+cognome+nome+anno_nascita #surname + name + year of birth
+	print""
 	
 	
 		
