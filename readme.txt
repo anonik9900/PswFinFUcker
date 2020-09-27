@@ -26,3 +26,5 @@
     type "python pswf.py" or "python3 pswf.py"  if the firt one doesn't work
     Have Fun :)  
     
+
+<code>git clone https://github.com/anonik9900/PswFinFUcker</code>
