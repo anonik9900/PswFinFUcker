@@ -8,6 +8,7 @@
 
     **You need this: 
         Pyfiglet; Python3;Python2; PIP installer
+        Run need_this.sh
     **
     
     
@@ -16,6 +17,12 @@
       open the Terminal.
       Type = "pip install pyfiglet" or "pip3 install pyfiglet"
       pyfiglet web : https://pypi.org/project/pyfiglet/0.7/
+      Run need_this.sh
+      
+  **need_this.sh
+      
+    chmod +x need_this.sh
+    ./need:this.sh
 
 **Run
 
