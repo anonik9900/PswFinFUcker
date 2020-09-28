@@ -24,12 +24,12 @@
     chmod +x need_this.sh
     ./need:this.sh
 
-**Run
+**Run**
 
     Go inside the PswFinFucker Folder (example: "cd PswFinFucker")
     type "python pswf.py" or "python3 pswf.py"  if the firt one doesn't work
     Have Fun :)  
     
-**Download Git
+**Download Git**
 
  <code>git clone https://github.com/anonik9900/PswFinFUcker</code>
