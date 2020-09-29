@@ -210,7 +210,7 @@ def CreaPassword():
 		print "combAnimal24: "+dog_name+nome+mese_nascita #animal+name+month
 		print "combAnimal25: "+dog_name+nome+giorno_nascita #animal+name+day
 		print "combAnimal26: "+dog_name+anno_nascita+nome #animal+year+name
-		print "combAnimal27:_"+dog_name+mese_nascita+nome #animal+month+name
+		print "combAnimal27: "+dog_name+mese_nascita+nome #animal+month+name
 		print "combAnimal28: "+dog_name+giorno_nascita+nome #animal+day+name
 		
 		print "combAnimal29: "+cognome+anno_nascita+dog_name #surname+year+animal
@@ -275,7 +275,7 @@ def CreaPassword():
 		print "combAnimal24: "+dog_name+nome+mese_nascita #animal+name+month
 		print "combAnimal25: "+dog_name+nome+giorno_nascita #animal+name+day
 		print "combAnimal26: "+dog_name+anno_nascita+nome #animal+year+name
-		print "combAnimal27:_"+dog_name+mese_nascita+nome #animal+month+name
+		print "combAnimal27: "+dog_name+mese_nascita+nome #animal+month+name
 		print "combAnimal28: "+dog_name+giorno_nascita+nome #animal+day+name
 		
 		print "combAnimal29: "+cognome+anno_nascita+dog_name #surname+year+animal
@@ -343,7 +343,7 @@ def CreaPassword():
 		print "combAnimal24: "+dog_name+nome+mese_nascita #animal+name+month
 		print "combAnimal25: "+dog_name+nome+giorno_nascita #animal+name+day
 		print "combAnimal26: "+dog_name+anno_nascita+nome #animal+year+name
-		print "combAnimal27:_"+dog_name+mese_nascita+nome #animal+month+name
+		print "combAnimal27: "+dog_name+mese_nascita+nome #animal+month+name
 		print "combAnimal28: "+dog_name+giorno_nascita+nome #animal+day+name
 		
 		print "combAnimal29: "+cognome+anno_nascita+dog_name #surname+year+animal
