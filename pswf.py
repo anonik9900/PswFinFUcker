@@ -234,6 +234,12 @@ def CreaPassword():
 		print "combAnimal44: "+dog_name+nome+anno_nascita+mese_nascita+cognome+giorno_nascita #animal+name+year+month+surname+day
 		print "combAnimal45: "+dog_name+nome+anno_nascita+giorno_nascita+cognome+mese_nascita #animal+name+year+day+surname+month
 		print "combAnimal46: "+dog_name+nome+mese_nascita+giorno_nascita+cognome+anno_nascita #animal+name+month+day+surname+year
+		print "combAnimal47: "+nome+dog_name+anno_nascita+cognome+mese_nascita #name+animal+year+surname+month
+		print "combAnimal48: "+nome+dog_name+mese_nascita+cognome+giorno_nascita #name+animal+month+surname+day
+		print "combAnimal49: "+nome+dog_name+giorno_nascita+cognome+anno_nascita #name+animal+day+surname+year
+		print "combAnimal50: "+cognome+dog_name+anno_nascita+nome+mese_nascita #surname+animal+year+name+month
+		print "combAnimal51: "+cognome+dog_name+mese_nascita+nome+giorno_nascita #surname+animal+month+name+day
+		print "combAnimal52: "+cognome+dog_name+giorno_nascita+nome+anno_nascita #surname+animal+day+name+year
 		
 	if dog_name_value ==1 and dog_number==str(2):
 		print""
@@ -286,6 +292,19 @@ def CreaPassword():
 		print "combAnimal38: "+dog_name+anno_nascita+cognome #animal+year+surname
 		print "combAnimal39: "+dog_name+mese_nascita+cognome #animal+month+surname
 		print "combAnimal40: "+dog_name+giorno_nascita+cognome #animal+day+surname
+		
+		print "combAnimal41: "+dog_name+nome+anno_nascita+cognome #animal+name+year+surname
+		print "combAnimal42: "+dog_name+nome+anno_nascita+mese_nascita+cognome #animal+name+year+month+surname
+		print "combAnimal43: "+dog_name+nome+anno_nascita+mese_nascita+giorno_nascita+cognome #animal+name+year+month+day+surname
+		print "combAnimal44: "+dog_name+nome+anno_nascita+mese_nascita+cognome+giorno_nascita #animal+name+year+month+surname+day
+		print "combAnimal45: "+dog_name+nome+anno_nascita+giorno_nascita+cognome+mese_nascita #animal+name+year+day+surname+month
+		print "combAnimal46: "+dog_name+nome+mese_nascita+giorno_nascita+cognome+anno_nascita #animal+name+month+day+surname+year
+		print "combAnimal47: "+nome+dog_name+anno_nascita+cognome+mese_nascita #name+animal+year+surname+month
+		print "combAnimal48: "+nome+dog_name+mese_nascita+cognome+giorno_nascita #name+animal+month+surname+day
+		print "combAnimal49: "+nome+dog_name+giorno_nascita+cognome+anno_nascita #name+animal+day+surname+year
+		print "combAnimal50: "+cognome+dog_name+anno_nascita+nome+mese_nascita #surname+animal+year+name+month
+		print "combAnimal51: "+cognome+dog_name+mese_nascita+nome+giorno_nascita #surname+animal+month+name+day
+		print "combAnimal52: "+cognome+dog_name+giorno_nascita+nome+anno_nascita #surname+animal+day+name+year
 		
 		print "combAnimal Second: "+nome+cognome+dog_name2 #name+surname+animal2
 		
@@ -341,6 +360,19 @@ def CreaPassword():
 		print "combAnimal38: "+dog_name+anno_nascita+cognome #animal+year+surname
 		print "combAnimal39: "+dog_name+mese_nascita+cognome #animal+month+surname
 		print "combAnimal40: "+dog_name+giorno_nascita+cognome #animal+day+surname
+		
+		print "combAnimal41: "+dog_name+nome+anno_nascita+cognome #animal+name+year+surname
+		print "combAnimal42: "+dog_name+nome+anno_nascita+mese_nascita+cognome #animal+name+year+month+surname
+		print "combAnimal43: "+dog_name+nome+anno_nascita+mese_nascita+giorno_nascita+cognome #animal+name+year+month+day+surname
+		print "combAnimal44: "+dog_name+nome+anno_nascita+mese_nascita+cognome+giorno_nascita #animal+name+year+month+surname+day
+		print "combAnimal45: "+dog_name+nome+anno_nascita+giorno_nascita+cognome+mese_nascita #animal+name+year+day+surname+month
+		print "combAnimal46: "+dog_name+nome+mese_nascita+giorno_nascita+cognome+anno_nascita #animal+name+month+day+surname+year
+		print "combAnimal47: "+nome+dog_name+anno_nascita+cognome+mese_nascita #name+animal+year+surname+month
+		print "combAnimal48: "+nome+dog_name+mese_nascita+cognome+giorno_nascita #name+animal+month+surname+day
+		print "combAnimal49: "+nome+dog_name+giorno_nascita+cognome+anno_nascita #name+animal+day+surname+year
+		print "combAnimal50: "+cognome+dog_name+anno_nascita+nome+mese_nascita #surname+animal+year+name+month
+		print "combAnimal51: "+cognome+dog_name+mese_nascita+nome+giorno_nascita #surname+animal+month+name+day
+		print "combAnimal52: "+cognome+dog_name+giorno_nascita+nome+anno_nascita #surname+animal+day+name+year
 		
 		
 		print "combAnimalSecond: "+nome+cognome+dog_name2 #name+surname+animal2
