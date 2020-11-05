@@ -37,11 +37,23 @@ def MenuCHoice():
 	print""
 	
 	
-	d1 = str("ciao")
-	os.system('crunch 7 7')+dl+('-o wordlist.txt')
 
 
 
+
+def Menucrunch():
+	print""
+	print "()---------------------------------()"
+	print "()-----------/Crunch Tool\---------()"
+	print "()----------|             |--------()"
+	print "()----------\_____________/--------()"
+	print "()---------------------------------()"
+	
+	victimname = raw_input ("Please enter the name that you need to use to create a new psw list: ")
+	print victimname
+		
+	os.system('python test.py')
+	sys.exit()
 
 def SceltaMenu():
 	scelta = raw_input("Type (1) to enter, (2) To Exit or (3) to use the crunch Tool ")
@@ -49,8 +61,11 @@ def SceltaMenu():
 	if scelta == str("1"):
 		return MenuCHoice() #MEnu
 	
-	elif scelta == str("2"):
+	if scelta == str("2"):
 		sys.exit()
+		
+	if scelta == str("3"):
+		return Menucrunch() #MenuCrunch
 	
 	else:
 		print "Invalid input - try again"
