@@ -5,7 +5,7 @@ import subprocess #Process commands
 import socket #Process socket data
 import pyfiglet
 import sys
-
+import os
 
 
 
@@ -35,12 +35,16 @@ def MenuCHoice():
 	print"         ()--------------------------()"
 	print"         ()---1*Create Psw with comb-()"
 	print""
+	
+	
+	d1 = str("ciao")
+	os.system('crunch 7 7')+dl+('-o wordlist.txt')
 
 
 
 
 def SceltaMenu():
-	scelta = raw_input("Type 1 to enter Or 2 To Exit ")
+	scelta = raw_input("Type (1) to enter, (2) To Exit or (3) to use the crunch Tool ")
 
 	if scelta == str("1"):
 		return MenuCHoice() #MEnu
