@@ -7,7 +7,7 @@
 |__|     \___|  \_/\_/                 |__|   |____||__|__||__|    \__,_|\____||__|\_|
                                                                                       
 
-******   BY ANONIK V.1.0  ******
+******   BY ANONIK V.1.0.4  ******
 
 
 
@@ -27,3 +27,9 @@
     Have Fun :)  
     
 **Open Source**
+
+
+*Changelog 1.0.4
+
+*added new wordlist generator like the crunch tool used in kali linux
+thanks to derv82

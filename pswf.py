@@ -18,6 +18,48 @@ def MenuFont():
 	
 
 
+def CreditsMenu():
+	print""
+	print""
+	print"()==========================================()"
+	print"()                                          ()"
+	print"()               CREDITS BY:                ()"
+	print"()                                          ()"
+	print"()       *)General Scripting: Anonik        ()"
+	print"()                                          ()"
+	print"()      *)crucnh.py Scripting By derv82     ()"
+	print"()                                          ()"
+	print"()==========================================()"
+	
+	print""
+	print""
+	
+	print"()==========================================()"
+	print"()             SOCIAL - GITHUB              ()"
+	print"()==========================================()"
+	print""
+	print"()=Github Anonik: https://github.com/anonik9900"
+	print"()=Github derv: https://github.com/derv82"
+	print""
+	print"()==========================================()"
+	print"()           END CREDITS AND SOCIAL         ()"
+	print"()==========================================()"
+	
+	print""
+	print""
+	creditChoice = raw_input("Type 1) to go home or 2) to exit: ")
+	
+	if creditChoice == str("1"):
+		os.system('clear')
+		return SceltaMenu()
+	
+	if creditChoice == str("2"):
+		sys.exit()
+	
+	else:
+		print"Error... Invalid command. Closing program"
+		sys.exit()
+	
 
 
 def MenuCHoice():
@@ -60,20 +102,32 @@ def Menucrunch():
 		nameSfile = raw_input("Enter the name of your wordlist is saved ex: (word.txt) : ")
 		print ""
 		print "Success"
-		os.system('python crunch.py -m' +minChar+'-M' +maxChar +' -c '+vic+ '-o '+nameSfile)
+		os.system('python crunch.py -m '+minChar+' -M '+maxChar +' -c '+vic+ ' -o '+nameSfile)
+		print""
+		print"()================================()"
+		print"()            COMPLETED           ()"
+		print"()================================()"
+		print""
+		print"The wordlist called "+nameSfile+" is saved inside the pswf.py folder !"
+		print""
+		sys.exit()
 	
 	if saveFile == str("N"):
 		print "Go to the next step \../ "
 		print""
+		os.system('python crunch.py -m '+minChar+' -M '+maxChar +' -c '+vic)
+		print""
+		print"()================================()"
+		print"()            COMPLETED           ()"
+		print"()================================()"
+		print""
+		sys.exit()
 		
 	else:
 		print "Error.... :("
 		sys.exit()
     
 
-
-	word="moo"
-	parola="ciao"
 	
 	#os.system('cowsay ' + vic)
 	
@@ -84,7 +138,7 @@ def Menucrunch():
 	sys.exit()
 
 def SceltaMenu():
-	scelta = raw_input("Type (1) to enter, (2) To Exit or (3) to use the crunch Tool ")
+	scelta = raw_input("Type (1) to enter, (2) To Exit, (3) to use the crunch Tool \nor (4) to see the credits ")
 
 	if scelta == str("1"):
 		return MenuCHoice() #MEnu
@@ -94,6 +148,9 @@ def SceltaMenu():
 		
 	if scelta == str("3"):
 		return Menucrunch() #MenuCrunch
+	
+	if scelta == str("4"):
+		return CreditsMenu() #Menu Credits
 	
 	else:
 		print "Invalid input - try again"
