@@ -49,17 +49,35 @@ def Menucrunch():
 	print "()----------\_____________/--------()"
 	print "()---------------------------------()"
 	
-	vic = raw_input ("Please enter the name that you need to use to create a new psw list: ")
-
+	vic = raw_input ("Please enter a value for create new wordlist: ")
+	minChar = raw_input("Enter the minimum word lenght: ")
+	maxChar = raw_input("Enter the maximum word lenght: ")
+	print""
+	
+	saveFile = raw_input("Did you save all words inside a file ?: [Y]or[N] ")
+	
+	if saveFile == str("Y"):
+		nameSfile = raw_input("Enter the name of your wordlist is saved ex: (word.txt) : ")
+		print ""
+		print "Success"
+		os.system('python crunch.py -m' +minChar+'-M' +maxChar +' -c '+vic+ '-o '+nameSfile)
+	
+	if saveFile == str("N"):
+		print "Go to the next step \../ "
+		print""
+		
+	else:
+		print "Error.... :("
+		sys.exit()
     
 
 
 	word="moo"
 	parola="ciao"
 	
-	os.system('cowsay ' + vic)
+	#os.system('cowsay ' + vic)
 	
-	os.system('python crunch.py -m 1 -M 3'+' -c '+vic)
+	#os.system('python crunch.py -m 1 -M 3'+' -c '+vic)
 	
 	#os.system(mark)
 	#os.system('%s %s' % ('ls', '-l'))
