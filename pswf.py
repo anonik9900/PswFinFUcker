@@ -49,10 +49,20 @@ def Menucrunch():
 	print "()----------\_____________/--------()"
 	print "()---------------------------------()"
 	
-	victimname = raw_input ("Please enter the name that you need to use to create a new psw list: ")
-	print victimname
-		
-	os.system('python test.py')
+	vic = raw_input ("Please enter the name that you need to use to create a new psw list: ")
+
+    
+
+
+	word="moo"
+	parola="ciao"
+	
+	os.system('cowsay ' + vic)
+	
+	os.system('python crunch.py -m 1 -M 3'+' -c '+vic)
+	
+	#os.system(mark)
+	#os.system('%s %s' % ('ls', '-l'))
 	sys.exit()
 
 def SceltaMenu():

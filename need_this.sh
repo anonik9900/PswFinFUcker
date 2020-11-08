@@ -1,4 +1,9 @@
+
+echo "()===============================()"
 echo "PswFinFUcker Dependencies installer"
+echo "            By Anonik              "
+echo "          Version 1.0.3c           "
+echo "()===============================()"
 
 sudo apt update 
 sudo apt-get install python
@@ -12,3 +17,4 @@ sudo python2 get-pip.py
 sudo pip install pyfiglet
 sudo pip3 install pyfiglet
 sudo apt-get update
+sudo apt-get install crunch
