@@ -32,7 +32,7 @@
 
 
 
-**Changelog 1.0.5
+**Changelog 1.0.5**
 
    Added new Ascii Art inside the crunch tool section
    Improved some if statements
