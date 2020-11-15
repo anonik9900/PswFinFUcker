@@ -8,6 +8,40 @@ import sys
 import os
 
 
+def SplashScreen():
+	print "         .            )        )"
+	print "                  (  (|              ."
+	print "              )   )\/ ( ( ("
+	print "      *  (   ((  /     ))\))  (  )    )"
+	print "    (     \   )\(          |  ))( )  (|"
+	print "    >)     ))/   |          )/  \((  ) \ "
+	print "    (     (      .        -.     V )/   )(    ( "
+	print "    \   /     .   \            .       \))   ))"
+	print "       )(      (  | |   )            .    (  /"
+	print "      )(    ,'))     \ /          \( `.    )"
+	print "      (\>  ,'/__      ))            __`.  /"
+	print "     ( \   | /  ___   ( \/     ___   \ | ( ("
+	print "      \.)  |/  /   \__      __/   \   \|  ))"
+	print "     .  \. |>  \      | __ |      /   <|  /"
+	print "          )/    \____/ :..: \____/     \ <"
+	print "   )   \ (|__  .      / ;: \          __| )  ("
+	print "  ((    )\)  ~--_     --  --      _--~    /  ))"
+	print "   \    (    |  ||               ||  |   (  /"
+	print "         \.  |  ||_             _||  |  /"
+	print "           > :  |  ~V+-I_I_I-+V~  |  : (."
+	print "          (  \:  T\   _     _   /T  : ./"
+	print "           \  :    T^T T-+-T T^T    ;<"
+	print "            \..`_       -+-       _'  )"
+	print "  )            . `--=.._____..=--'. ./         ("
+	print " ((     ) (          )             (     ) (   )> "
+	print "  > \/^/) )) (   ( /(.      ))     ))._/(__))./ (_."
+	print " (  _../ ( \))    )   \ (  / \.  ./ ||  ..__:|  _. \ "
+	print " |  \__.  ) |   (/  /: :)) |   \/   |(  <.._  )|  ) )"
+	print "))  _./   |  )  ))  __  <  | :(     :))   .//( :  : |"
+	print "(: <     ):  --:   ^  \  )(   )\/:   /   /_/ ) :._) :"
+	print " \..)   (_..  ..  :    :  : .(   \..:..    ./__.  ./"
+	print "            ^    ^      \^ ^           ^\/^     ^ JaL"
+
 
 
 
@@ -91,6 +125,9 @@ def Menucrunch():
 	print "()----------\_____________/--------()"
 	print "()---------------------------------()"
 	
+	
+	print SplashScreen()
+	
 	vic = raw_input ("Please enter a value for create new wordlist: ")
 	minChar = raw_input("Enter the minimum word lenght: ")
 	maxChar = raw_input("Enter the maximum word lenght: ")
@@ -98,7 +135,7 @@ def Menucrunch():
 	
 	saveFile = raw_input("Did you save all words inside a file ?: [Y]or[N] ")
 	
-	if saveFile == str("Y"):
+	if saveFile == str("Y") or saveFile == str("y"):
 		nameSfile = raw_input("Enter the name of your wordlist is saved ex: (word.txt) : ")
 		print ""
 		print "Success"
@@ -112,7 +149,7 @@ def Menucrunch():
 		print""
 		sys.exit()
 	
-	if saveFile == str("N"):
+	if saveFile == str("N") or saveFile == str("n"):
 		print "Go to the next step \../ "
 		print""
 		os.system('python crunch.py -m '+minChar+' -M '+maxChar +' -c '+vic)

@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/anonik9900/PswFinFUcker/master/screen2.png">
                                                                                       
-******   BY ANONIK V.1.0  ******
+******   BY ANONIK V.1.0.5  ******
 
 
 
@@ -29,6 +29,15 @@
     Go inside the PswFinFucker Folder (example: "cd PswFinFucker")
     type "python pswf.py" or "python3 pswf.py"  if the firt one doesn't work
     Have Fun :)  
+
+
+
+**Changelog 1.0.5
+
+   Added new Ascii Art inside the crunch tool section
+   Improved some if statements
+   Improved minor issues 
+
     
     
 **Changelog 1.0.4**

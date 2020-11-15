@@ -7,7 +7,7 @@
 |__|     \___|  \_/\_/                 |__|   |____||__|__||__|    \__,_|\____||__|\_|
                                                                                       
 
-******   BY ANONIK V.1.0.4  ******
+******   BY ANONIK V.1.0.5  ******
 
 
 
@@ -27,6 +27,14 @@
     Have Fun :)  
     
 **Open Source**
+
+
+
+*Changelog 1.0.5
+
+*Added new Ascii Art inside the crunch tool section
+*Improved some if statements
+*Improved minor issues 
 
 
 *Changelog 1.0.4
