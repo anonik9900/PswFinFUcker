@@ -35,7 +35,9 @@
 **Changelog 1.0.5**
 
    Added new Ascii Art inside the crunch tool section
+   
    Improved some if statements
+   
    Improved minor issues 
 
     
